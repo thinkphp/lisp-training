@@ -14,4 +14,8 @@
       (t (* n (fact (- n 1))))
 ))
 
-
+(defun fact2 (n)
+     (if (< n 2)
+         1
+      (* n (fact2 (- n 1)))
+))
