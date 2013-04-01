@@ -1,10 +1,10 @@
 # Lisp-training
 
-# Resources
+## Resources
 
 [http://cs.gmu.edu/~sean/lisp/LispTutorial.html]
 
-# License
+## License
 
 MIT
 
