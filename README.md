@@ -18,10 +18,12 @@ $ [3]> (exit)
 
 ## Resources
 
-[http://cs.gmu.edu/~sean/lisp/LispTutorial.html]
+[http://cs.gmu.edu/~sean/lisp/]
+[http://norvig.com]
 
 ## License
 
 MIT
 
-[http://cs.gmu.edu/~sean/lisp/LispTutorial.html]: http://cs.gmu.edu/~sean/lisp/LispTutorial.html
+[http://cs.gmu.edu/~sean/lisp/]: http://cs.gmu.edu/~sean/lisp/
+[http://norvig.com]: http://norvig.com
