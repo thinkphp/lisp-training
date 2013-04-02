@@ -19,3 +19,13 @@
          1
       (* n (fact2 (- n 1)))
 ))
+
+;prog
+(defun f(n)
+  (prog ((i 0)(f 1))
+       hello
+       (setf i (+ i 1) f (* f i))
+       (if (<= n i) (return f))
+       (go hello)
+  )
+)
