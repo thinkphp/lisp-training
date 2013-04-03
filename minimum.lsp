@@ -19,6 +19,6 @@
 
          ((null (cdr L))(car L))
 
-         (t (min1 (car L)(apply 'min (cdr L)) ))
+         (t (min1 (car L)(apply 'min3 (cdr L)) ))
    )
 )
