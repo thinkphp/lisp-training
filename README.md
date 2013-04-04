@@ -20,6 +20,7 @@ $ [3]> (exit)
 
 * [http://cs.gmu.edu/~sean/lisp/]
 * [http://norvig.com]
+* [http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/]
 
 ## License
 
@@ -27,3 +28,4 @@ MIT
 
 [http://cs.gmu.edu/~sean/lisp/]: http://cs.gmu.edu/~sean/lisp/
 [http://norvig.com]: http://norvig.com/
+[http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/]: http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/
