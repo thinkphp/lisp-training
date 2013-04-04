@@ -1,5 +1,5 @@
 ;Finding the minimum element in the list
-;[1]>(min2 10 9 1 7 8) => 1
+;[1]>(min3 10 9 1 7 8) => 1
 
 ;solution 1 with if
 (defun min1(x y) ;arg1 x and arg2 y
