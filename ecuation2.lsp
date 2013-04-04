@@ -15,7 +15,7 @@
 
 (defun square(x) (* x x))
 
-(defun delta() (- (* b b) (* 4 a c) ))
+(defun delta() (- (square b) (* 4 a c) ))
 
 (defun checkDelta()
 
