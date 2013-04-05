@@ -18,14 +18,18 @@ $ [3]> (exit)
 
 ## Resources
 
-* [http://cs.gmu.edu/~sean/lisp/]
 * [http://norvig.com]
+* [http://cs.gmu.edu/~sean/lisp/]
 * [http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/]
+* [http://psg.com/~dlamkins/sl/contents.html]
+* [http://www.gigamonkeys.com/book/]
 
 ## License
 
 MIT
 
-[http://cs.gmu.edu/~sean/lisp/]: http://cs.gmu.edu/~sean/lisp/
 [http://norvig.com]: http://norvig.com/
+[http://cs.gmu.edu/~sean/lisp/]: http://cs.gmu.edu/~sean/lisp/
 [http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/]: http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/
+[http://psg.com/~dlamkins/sl/contents.html]: http://psg.com/~dlamkins/sl/contents.html
+[http://www.gigamonkeys.com/book/]: http://www.gigamonkeys.com/book/
