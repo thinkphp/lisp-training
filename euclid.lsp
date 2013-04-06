@@ -44,3 +44,12 @@
   )
 )
 
+; with prog
+(defun gcd2(X Y)
+ (prog ()
+       again
+       (if (= Y 0) (return X))
+       (psetf X Y Y (REM X Y))
+       (go again)
+ )  
+)
