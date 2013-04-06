@@ -11,6 +11,7 @@
  )
 )
 
+
 ;recursive using cond
 (defun fib1(N)
  (cond ((= N 0) 1)
@@ -24,7 +25,7 @@
     
     (let ((f1 0)(f2 1)(i 0))
 
-         (loop (if (= N i) (return-from fib3 f2) )
+         (loop (if (= N i) (return-from fib2 f2) )
         
                (psetf f1 f2 f2 (+ f1 f2) i (+ i 1))                                        
          ) 
