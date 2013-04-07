@@ -23,6 +23,8 @@ $ [3]> (exit)
 * [http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/]
 * [http://psg.com/~dlamkins/sl/contents.html]
 * [http://www.gigamonkeys.com/book/]
+* [http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf]
+* [http://2k8618.blogspot.ro/p/lisp-programs.html]
 
 ## License
 
@@ -33,3 +35,5 @@ MIT
 [http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/]: http://www2.cs.sfu.ca/CourseCentral/310/pwfong/Lisp/
 [http://psg.com/~dlamkins/sl/contents.html]: http://psg.com/~dlamkins/sl/contents.html
 [http://www.gigamonkeys.com/book/]: http://www.gigamonkeys.com/book/
+[http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf]: http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf
+[http://2k8618.blogspot.ro/p/lisp-programs.html]: http://2k8618.blogspot.ro/p/lisp-programs.html
