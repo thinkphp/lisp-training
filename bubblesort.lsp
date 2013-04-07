@@ -1,9 +1,18 @@
-;bubblesort
-;(bubble '(3 2 1) '<) -> (1 2 3)
+;Algorithm Sorting BubbleSort
+;N=3 
+;<<Bubble Sort for 3 numbers>>
+;Enter the numbers
+;3
+;2
+;1
+;Output:
+;1
+;2
+;3
 
 (defun bubble (n)
 
-       (format t "<<BubbleSort Method>> -> ~&" n)
+       (format t "<<Bubble Sort for ~D numbers>> -> ~&" n)
 
        (bubbleread n) 
 
