@@ -7,7 +7,7 @@
 (defun fib0(N)
  (if (OR (zerop N) (= N 1)) 
       1 
-     (+ (fib (- N 1)) (fib (- N 2)) )
+     (+ (fib0 (- N 1)) (fib0 (- N 2)) )
  )
 )
 
@@ -16,7 +16,7 @@
 (defun fib1(N)
  (cond ((= N 0) 1)
        ((= N 1) 1) 
-       (T (+ (fib (- N 1)) (fib (- N 2))) )
+       (T (+ (fib1 (- N 1)) (fib1 (- N 2))) )
  )
 )
 
@@ -38,3 +38,14 @@
   (do ((f1 0 f2) (f2 1 (+ f2 f1)) (i 0 (+ i 1))) ((= i n) f2)
   ) 
 )
+
+; 1 2 3 5 8 13 21
+(defun fibonacci (limit)
+
+  (labels ((rec (st nd s)
+
+           (if (= s limit) st (rec nd (+ st nd) (+ s 1) ) ))
+  )
+
+  (rec 1 2 0)
+))
