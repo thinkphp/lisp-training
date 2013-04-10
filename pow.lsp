@@ -1,0 +1,11 @@
+;(pow 2 3)
+(defun pow(a b)
+       (setf p 1)
+       (prog() 
+            again
+            (if (<= b 0) (return p)) 
+            (setf p (* a p))
+            (setf b (- b 1))
+            (go again)  
+       )        
+)
