@@ -38,4 +38,4 @@ MIT
 [http://www.gigamonkeys.com/book/]: http://www.gigamonkeys.com/book/
 [http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf]: http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf
 [http://2k8618.blogspot.ro/p/lisp-programs.html]: http://2k8618.blogspot.ro/p/lisp-programs.html
-[http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html](http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html)
+[http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html]: http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html
