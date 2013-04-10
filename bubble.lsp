@@ -1,3 +1,4 @@
+;Sorting Technique Bubble Sort using prog, label, go and return
 ;(load "bubble.lsp")
 ;(bubble '(5 4 3 2 1) '<)
 ;->(1 2 3 4 5)
@@ -9,10 +10,13 @@
    (prog (flag (i 0) X Y (LUNG (- (LENGTH L) 1) ) )
 
         start
+
         (setf i 0)
+
         (setf flag T)
 
         one
+
         (princ L)(princ i)(princ flag) ;i = 3 ; 3 2 1 4 5
 
         (setf X (nth i L) )
@@ -25,6 +29,7 @@
         )
 
         fine
+
         (if flag (return L) (go start))
    )
 )
