@@ -48,18 +48,21 @@
 )
 
 ;iterative version3 using loop
-(defun multiples22 (N)
+(defun multiples3 (N)
 
        (let((sum 0))
            
-           (loop for i from 1 to (- N 1)     
+           (loop for i from 1 to (- N 1)
+
+                 do (if (or (zerop (MOD i 3)) (zerop (MOD i 5)) ) (incf sum i) )
            )  
+           sum
        )    
 )
 
 
 ;recursive version
-(defun multiples3(N R)
+(defun multiples_rec(N R)
 
        (if (< N 1) R
 
@@ -70,7 +73,7 @@
 
 
 ;recursive version2
-(defun multiples4(limit)
+(defun multiples_rec(limit)
  
        (labels((rec (N S)
  
