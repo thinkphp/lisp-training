@@ -19,6 +19,6 @@
 
 (defun sumdigits(N R)
        (if (zerop N)(print R)
-           (rec (truncate N 10) (+ (MOD N 10) R))
+           (sumdigits (truncate N 10) (+ (MOD N 10) R))
        )
 )
