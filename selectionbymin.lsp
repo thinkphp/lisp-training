@@ -1,3 +1,5 @@
+;Sorting Technique - Selection By Min
+
 (defun selec(N)
 
     (format t "<<Selection by min for ~D numbers>>~&" n)
