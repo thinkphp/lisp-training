@@ -11,6 +11,18 @@
 
 (defun mergesort (L P)
        (cond ((null (cdr L)) L)
-             (T (merged ))   
-       )            
+             (T (merged (mergesort (prima L) P) (mergesort (seconda L) P) P))
+       )
+)
+
+(defun prima (L)
+       (let ((N (/ (length L) 2)))
+              (subseq L 0 (floor N))
+       ) 
+)
+
+(defun secunda (L)
+       (let ((N (/ (length L) 2)))
+              (subseq L (floor N))
+       ) 
 )
