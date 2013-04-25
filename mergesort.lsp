@@ -21,7 +21,7 @@
        ) 
 )
 
-(defun secunda (L)
+(defun seconda (L)
        (let ((N (/ (length L) 2)))
               (subseq L (floor N))
        ) 
