@@ -1,24 +1,22 @@
 ;Binary Tree Traversal
 ;            A
 ;           / \
-;          B   E
-;         / \
-;        C   D 
+;          B   G
+;         / \  /
+;        C   D H
+;             
 ;
-;L -> (A (B (C nil nil) (D nil nil)) (E nil nil))
-;
+;L ->(A (B (c nil nil) (D nil nil)) (G (H nil nil) nil) )
 ;(inorder L)
-;->(C B D A E)
-;
-;(preorder L)
-;->(A B C D E)
-;
-;(postorder L)
-;->(C D B E A)
+;->(C B D A H G)
 
-;traversal inorder
-(defun inorder(L)
-       (if (null L) nil
-           (append (inorder (cadr L) ) (cons (car L) (inorder (caddr L) )))
-       )
+;solution with cons
+(defun inorder (L)
+       (if (null L) nil (append (inorder (CADR L)) (cons (CAR L) (inorder (CADDR L)) ) ) )
 )
+
+;solution with list
+(defun inorder2 (L)
+       (if (null L) nil (append (inorder (CADR L) ) (list (CAR L)) (inorder (CADDR L)) ))
+)
+
