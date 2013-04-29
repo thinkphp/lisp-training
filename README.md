@@ -26,6 +26,7 @@ $ [3]> (exit)
 * [http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf]
 * [http://2k8618.blogspot.ro/p/lisp-programs.html]
 * [http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html]
+* [http://norvig.com/paip.html]
 
 ## License
 
@@ -39,3 +40,4 @@ MIT
 [http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf]: http://sunburn.stanford.edu/~nick/compdocs/LISP_Examples.pdf
 [http://2k8618.blogspot.ro/p/lisp-programs.html]: http://2k8618.blogspot.ro/p/lisp-programs.html
 [http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html]: http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html
+[http://norvig.com/paip.html]: http://norvig.com/paip.html
