@@ -6,6 +6,9 @@
 ;
 ;L->9 3 1 7 8
 ;
+;(inordine (arbore '(9 3 1 7 8) '<))
+;
+;->1 3 7 8 9
 
 (defun arbore (L P)
 
