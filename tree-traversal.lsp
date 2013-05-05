@@ -7,7 +7,7 @@
 ;   S   X Z
 ;       
 
-;Representation
+;Graph Representation
 (setf R '(U V Y W))
 (setf U '(S))
 (setf Y '(X Z))
@@ -26,3 +26,6 @@
 
 
 ;Breadth-first Traversal
+(defun breadth-first (root)
+
+)
