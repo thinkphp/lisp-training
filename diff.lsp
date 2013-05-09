@@ -1,5 +1,5 @@
 ;(diff '(a b c) '(x y z))
-(a b c)
+;(a b c)
 ;(diff '(a b c d e f) '(c d))
 ;(a b e f)
 
