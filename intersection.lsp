@@ -8,6 +8,11 @@
        ) 
 )
 
-(defun intersect* (&rest L)
 
+;(intersect* '(a b c) '(x y z b c d) '(a b z))
+(defun intersect* (&REST L)
+       (cond ((null L) nil)
+             ((null (cdr L)) (car L))
+             (T (intersect (car L) (apply 'intersect* (cdr L)) ))
+       ) 
 )
