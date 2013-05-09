@@ -9,3 +9,16 @@
             (go again)  
        )        
 )
+
+;(pow2 2 10)
+;->1024
+(defun pow2 (x y)
+
+       (let ((p 1))
+
+            (do ((i 1 (+ i 1))) ((> i y) p)
+
+                (setf p (* p x))
+            ) 
+       ) 
+)
