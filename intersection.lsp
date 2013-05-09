@@ -1,5 +1,6 @@
 ;Intersection of two sets
-;(intersect '(a b c) '( x b c y)) -> (b c)
+;(intersect '(a b c) '( x b c y))
+; -> (b c)
 
 (defun intersect (X Y)
        (cond ((or (null X)(null Y)) nil)
@@ -9,7 +10,9 @@
 )
 
 
-;(intersect* '(a b c) '(x y z b c d) '(a b z))
+;(intersect* '(a b c) '(x y z b c a d) '(a b z))
+;-> (a b)
+
 (defun intersect* (&REST L)
        (cond ((null L) nil)
              ((null (cdr L)) (car L))
