@@ -1,6 +1,6 @@
 ;remove duplicates
 ;(remove_duplicates '(a a b b c c d e)
-;
+;(a b c d e)
 
 (defun remove_duplicates(L)
        (cond ((null L) nil)
