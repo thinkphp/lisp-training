@@ -1,4 +1,4 @@
-;Produit Cartesien of two ensembles
+;Produit Cartesien of deux ensembles
 ;AxB
 ;(cartesien '(a b c) '(1 2))
 ;->((a 1)(a 2)(b 1)(b 2)(c 1)(c 2))
@@ -42,4 +42,10 @@
                (cartesien_rec (cdr A) B)
        ) 
      )
+)
+
+;solution with mapcan and mapcar
+(defun cartesien3 (A B)
+
+       (mapcan #'(lambda(x)(mapcar #'(lambda(y)(list x y)) B)) A)
 )
