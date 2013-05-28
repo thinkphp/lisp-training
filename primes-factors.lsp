@@ -1,3 +1,4 @@
+;Decomposition in prime factors
 ;(factors 8)
 ;(2 3)
 
@@ -19,7 +20,9 @@
                     )
                  )
 
-                 (if (> c 0) (and (setf R (cons c R))(setf R (cons i R)))
+                 (if (> c 0) 
+
+                       (and (setf R (cons c R))(setf R (cons i R)))
                  )
             )   
           )            
