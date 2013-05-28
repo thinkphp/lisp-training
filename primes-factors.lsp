@@ -7,13 +7,13 @@
  
             (do ((x N)(c 0)(i 2 (+ i 1))) ((= x 1) R)
 
-                 (setf c 0)
+                 (setf c 0) 
 
                  (if (equal (REM x i) 0)
 
-                    (do ((j 1)) ((> (REM x i) 0))
- 
-                        (setf c (+ c 1))
+                    (do ()((> (REM x i) 0))
+
+                        (setf c (+ c 1)) 
 
                         (setf x (floor (/ x i)))
                     )
