@@ -1,5 +1,5 @@
 ;Contest Problem OJI
-;(nfact 5)
+;(nfact 5), where 5 means 5!
 ;->2 3 4 5 => 2^3*3*5
 
 (defun nfact (N)
