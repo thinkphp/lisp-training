@@ -4,6 +4,7 @@
 ; (mapcar2 '(1 2 3) (lambda(x)(+ 1 (* 2 x))) )
 ; (7 5 3)
 
+;mapcar with the structure DO
 (defun mapcar2 (L F)
 
        (let ((R))
