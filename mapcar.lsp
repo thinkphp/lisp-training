@@ -7,7 +7,7 @@
 
        (let ((R))
 
-            (dolist (i L R)
+            (dolist (i L (reverse R))
 
                  (setf R (cons (funcall F i) R))
             )
