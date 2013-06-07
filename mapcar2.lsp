@@ -4,6 +4,7 @@
 ; (mapcar2 '(1 2 3) (lambda(x)(+ (* 2 x) 1)))
 ; => (3 5 7)
 
+;MAPCAR written recursively
 (defun mapcar2 (L P)
 
        (cond ((null L) nil)
