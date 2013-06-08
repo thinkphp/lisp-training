@@ -27,6 +27,7 @@ $ [3]> (exit)
 * [http://2k8618.blogspot.ro/p/lisp-programs.html]
 * [http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html]
 * [http://norvig.com/paip.html]
+* [http://www.okazii.ro/recomandate/carti-it/limbaje-programare/antrenamente-lisp-mihaela-malita-a55230982]
 
 ## License
 
@@ -41,3 +42,4 @@ MIT
 [http://2k8618.blogspot.ro/p/lisp-programs.html]: http://2k8618.blogspot.ro/p/lisp-programs.html
 [http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html]: http://www.anselm.edu/internet/compsci/Faculty_Staff/mmalita/HOMEPAGE/cuLisp/index.html
 [http://norvig.com/paip.html]: http://norvig.com/paip.html
+[http://www.okazii.ro/recomandate/carti-it/limbaje-programare/antrenamente-lisp-mihaela-malita-a55230982]: http://www.okazii.ro/recomandate/carti-it/limbaje-programare/antrenamente-lisp-mihaela-malita-a55230982
