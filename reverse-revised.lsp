@@ -30,3 +30,10 @@
            (rec L nil)
        ) 
 )
+
+;solution 3 for all levels
+;(reverseall '(1 (2 3) (7 8) 9))
+
+(defun reverseall (L)
+
+)
