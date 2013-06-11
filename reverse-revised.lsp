@@ -37,8 +37,13 @@
 
 (defun reverseall (L)
 
-       (cond ((atom L) L)
+       (print L)
+
+       (cond ((null L) nil)
+
+             ((atom L) L)
  
-             (T (append (reverseall (cdr L)) (list (reverseall (car L)) ) ))
+             (T (append (reverseall (cdr L)) (list (reverseall (car L)) )))
        )
 )
+
