@@ -12,3 +12,13 @@
 )
 
 ;using DOLIST
+(defun make-pairs2 (L)
+
+    (let ((R)(k 0))
+
+         (dolist (i L (reverse R))
+
+                  (setf R (cons (list i (setf k (+ k 1))) R))
+         )
+    )
+)
