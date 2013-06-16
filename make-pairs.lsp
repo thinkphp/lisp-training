@@ -22,3 +22,17 @@
          )
     )
 )
+
+(defun make-pairs3 (L)
+
+       (labels (( rec (L k)
+
+                       (cond ((null L) nil)
+
+                             (T (cons (+ k 1) (rec (cdr L) (+ k 1)) ))
+                       )   
+               ))
+
+          (rec L 0)
+       )
+)
