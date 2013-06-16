@@ -36,3 +36,21 @@
           (rec L 0)
        )
 )
+
+
+;using auxiliar function 'associate'
+;(associate '(a b c))
+;->(1 2 3)
+
+(defun associate (L)
+
+       (make-pairs4 L 0)
+)
+
+(defun make-pairs4 (L k)
+
+       (cond ((null L) nil) 
+
+             (T (cons (+ k 1) (make-pairs4 (cdr L) (+ k 1) ) ))
+       )
+)
