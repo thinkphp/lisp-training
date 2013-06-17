@@ -38,19 +38,19 @@
 )
 
 
-;using auxiliar function 'associate'
-;(associate '(a b c))
+;using auxiliar function 'mycount'
+;(make_pairs4 '(a b c))
 ;->(1 2 3)
 
-(defun associate (L)
+(defun make_pairs4 (L)
 
-       (make-pairs4 L 0)
+       (mycount L 0)
 )
 
-(defun make-pairs4 (L k)
+(defun mycount (L k)
 
        (cond ((null L) nil) 
 
-             (T (cons (+ k 1) (make-pairs4 (cdr L) (+ k 1) ) ))
+             (T (cons (+ k 1) (mycount (cdr L) (+ k 1) ) ))
        )
 )
