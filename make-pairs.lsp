@@ -54,3 +54,14 @@
              (T (cons (+ k 1) (mycount (cdr L) (+ k 1) ) ))
        )
 )
+
+;(associate '(a b c) '(1 2 3))
+;->((a 1)(b 2)(c 3))
+
+(defun associate (L1 L2)
+
+       (cond ((null L1) nil) 
+
+             (T (cons (list (car L1) (car L2)) (associate (cdr L1) (cdr L2) ) ))
+       ) 
+)
