@@ -1,6 +1,6 @@
 ;Function that removes from L the element with the position P
 ;i.e. (myremove 2 '(a b c d e))
-;->(a b d e)
+;->(A B D E)
 
 (defun myremove (P L)
 
