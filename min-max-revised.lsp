@@ -37,3 +37,41 @@
              (T (max2 (car L) (apply #'max* (cdr L) ) ))
        )
 )
+
+
+(defun min** (&REST L)
+
+       (setf min (car L))
+
+       (setf L2 (cdr L))
+
+       (let ((s))
+
+          (dolist (i L2 min)
+
+            (if (< i min) 
+
+                (setf min i) 
+            )
+          )  
+       ) 
+)
+
+
+(defun max** (&REST L)
+
+       (setf max (car L))
+
+       (setf L2 (cdr L))
+
+       (let ((s))
+
+          (dolist (i L2 max)
+
+            (if (> i max) 
+
+                (setf max i) 
+            )
+          )  
+       ) 
+)
