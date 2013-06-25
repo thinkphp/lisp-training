@@ -1,4 +1,5 @@
-;concatenation List
+;concatenate List
+;(concatenate 'string "karl" " " "Marx")
 
 (defun concat (L)
 
