@@ -1,5 +1,6 @@
 ;Insersection
 
+;recursively
 (defun intersect (A B)
 
        (cond ((OR (null A) (null B)) nil)
@@ -10,13 +11,14 @@
        )        
 )
 
+;interatively
 (defun myintersect (A B)
 
     (let ((R nil))
 
-       (dolist (i A R)
+       (dolist (i A (reverse R))
 
-          (if (member i B) 
+          (if (mymember i B) 
 
               (setf R (cons i R)) 
           )    
@@ -24,4 +26,16 @@
 
     )
 
+)
+
+;defined function member
+(defun mymember (E M)
+
+       (dolist (i M)
+
+          (if (equal i E)  
+
+              (return T)               
+          ) 
+       ) 
 )
