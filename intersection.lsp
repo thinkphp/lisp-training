@@ -39,3 +39,14 @@
           ) 
        ) 
 )
+
+;(myintersect* '(a b c)  '(x y a b z) '(c d e f a b))
+;(a b)
+
+(defun myintersect* (&REST L &AUX (R (car L)))
+
+      (dolist (i (cdr L) R)
+
+         (unless (setf R (myintersect i R)) (return nil))
+      ) 
+)
