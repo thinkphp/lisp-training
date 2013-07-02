@@ -42,11 +42,25 @@
 
 ;(myintersect* '(a b c)  '(x y a b z) '(c d e f a b))
 ;(a b)
-
+;iterative solution
 (defun myintersect* (&REST L &AUX (R (car L)))
 
       (dolist (i (cdr L) R)
 
          (unless (setf R (myintersect i R)) (return nil))
       ) 
+)
+
+;(myintersect* '(a b c)  '(x y a b z) '(c d e f a b))
+;(a b)
+;recursive solution
+
+(defun myintersect** (&REST L)
+
+       (cond ((null L) 'ERROR)
+
+             ((null (cdr L)) (car L))
+
+             (T (myintersect (car L) (apply #' myintersect** (cdr L) ) )) 
+       ) 
 )
