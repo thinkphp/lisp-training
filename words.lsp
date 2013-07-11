@@ -8,6 +8,7 @@
 ;(random-letter)
 ;->"b"
 
+;function generate using dotimes and concatenate
 (defun gen (N)
 
      (let ((R ""))
@@ -19,6 +20,8 @@
     )
 )
 
+;English alphabet has 26 letters
+;get a random letter
 (defun random-letter()
 
        (string (code-char (+ 97 (random 26))))
