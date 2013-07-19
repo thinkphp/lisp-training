@@ -21,5 +21,14 @@
 
 ;solution 2
 (defun rev2 (L)
+      
+       (cond ((null L) nil)
 
+             (T (append (rev2 (cdr L) ) (list (car L)) ))
+       )  
+)
+
+(defun rev* (L)
+
+       (mapcar (lambda(z)(if (atom z) z (rev* z) )) (rev L))
 )
