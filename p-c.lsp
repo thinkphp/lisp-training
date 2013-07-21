@@ -31,6 +31,18 @@
      )
 )
 
+
+
+(defun cartesien** (&REST L &AUX (R (car L)))
+       
+     (dolist (i (cdr L) R)
+
+             (unless (setf R (cartesien R i) )(return nil))
+     )
+
+     (mapcar #'(lambda(z)(getAtoms z)) R)
+)
+
 (defun getAtoms(L)
 
        (cond ((null L) nil)
