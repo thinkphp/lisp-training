@@ -21,7 +21,22 @@
        
      (dolist (i (cdr L) R)
 
-       (unless (setf R (cartesien R i) )(return nil))
-
+             (unless (setf R (cartesien R i) )(return nil))
      )
+
+
+     (dolist (j R)
+
+             (princ (getAtoms j))
+     )
+)
+
+(defun getAtoms(L)
+
+       (cond ((null L) nil)
+       
+             ((atom L) (list L))
+
+             (T (mapcan #'getAtoms L))
+       )       
 )
