@@ -2,14 +2,31 @@
 ;(union '(1 2 3) '(2 5 7 8))
 ;->(1 3 2 5 7 8)
 
-(defun union (X Y)
+(defun myunion (X Y)
+
+       (cond ((null X) Y)
+
+             ((member (car X) Y) (union (cdr X) Y))  
+
+             (T (cons (car X) (union (cdr X) Y)))  
+       )
 
 )
 
-(defun union* (&REST L)
+(defun myunion* (&REST L)
 
+      (cond ((null L) 'ERROR)
+
+            ((null (cdr L)) (car L))
+
+            (T (myunion (car L) (apply #'myunion* (cdr L) ) ))
+      )
 )
 
-(defun union** (&REST L &AUX (R (car L)))
+(defun myunion** (&REST L &AUX (R (car L)))
 
+       (dolist (i (cdr L) R) 
+
+               (unless (setf R (myunion R i) )(return nil))
+       )
 )
