@@ -36,7 +36,22 @@
        
 )
 
-(defun cartesien* (&REST L)
+(defun cartesien* (&REST L &AUX (R (car L)))
 
+     (dolist (i (cdr L) R)
 
+             (unless (setf R (cartesien R i))(return nil)) 
+     )
+
+     (mapcar #'normalize R)          
+)
+
+(defun normalize (L)
+
+       (cond ((null L) nil)
+
+             ((atom L) (list L))
+
+             (T (mapcan #' normalize L))
+       ) 
 )
