@@ -1,4 +1,4 @@
-;Union function
+;Union Function Defined and from time to time i find myself addicted to set theory
 (defun union33 (X Y)
 
        (cond ((null X) Y)
@@ -9,11 +9,13 @@
        )
 )
 
+;for two elements
 (defun union34 (X Y)
 
        (duplicates (append X Y))
 )
 
+;eliminate duplicates
 (defun duplicates (L)
       
        (cond ((null L) nil)
@@ -24,3 +26,13 @@
        )   
 )
 
+;for more elements
+(defun union* (&REST L)
+
+       (cond ((null L) 'ERROR)
+
+             ((null (cdr L)) (car L))
+
+             (T (union34 (car L) (apply #'union* (cdr L)))) 
+       ) 
+)
