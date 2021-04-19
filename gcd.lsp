@@ -1,0 +1,6 @@
+(defun euc (A B)(if (= B 0) A (euc B (REM A B))))
+(princ "Enter a = ")
+(setq a (read))
+(princ "Enter b = ")
+(setq b (read))
+(write (euc a b))
