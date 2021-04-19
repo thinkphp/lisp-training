@@ -16,6 +16,10 @@ $ => 5050
 $ [3]> (exit)
 ```
 
+## DEMOS
+
+https://ideone.com/eysCTu (GCD)
+
 ## Resources
 
 * [http://norvig.com]
